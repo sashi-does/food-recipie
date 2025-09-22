@@ -21,7 +21,7 @@ function SearchRecipesComponent() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {
-      const response = await axios.get("http://localhost:8080/api/recipes/search", {
+      const response = await axios.get("http://localhost:8083/api/recipes/search", {
         params: searchParams,
       })
       setRecipes(response.data)

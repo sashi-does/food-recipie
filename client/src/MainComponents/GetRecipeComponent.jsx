@@ -23,7 +23,7 @@ function GetRecipeComponent() {
     setError(null)
 
     try {
-      const response = await axios.get(`http://localhost:8080/api/recipes/${recipeId}`)
+      const response = await axios.get(`http://localhost:8083/api/recipes/${recipeId}`)
       setRecipe(response.data)
     } catch (error) {
       console.error("Error fetching recipe:", error)

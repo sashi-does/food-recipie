@@ -33,7 +33,7 @@ function UpdateRecipeComponent() {
     setStatus({ type: null, message: "" })
 
     try {
-      const response = await axios.get(`http://localhost:8080/api/recipes/${recipeId}`)
+      const response = await axios.get(`http://localhost:8083/api/recipes/${recipeId}`)
       const recipe = response.data
 
       setRecipeDetails({

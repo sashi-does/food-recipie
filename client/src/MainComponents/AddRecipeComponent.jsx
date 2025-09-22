@@ -35,7 +35,7 @@ function AddRecipeComponent() {
         ingredients: recipe.ingredients.split(",").map((item) => item.trim()),
       }
 
-      const response = await axios.post("http://localhost:8080/api/recipes", formattedRecipe)
+      const response = await axios.post("http://localhost:8083/api/recipes", formattedRecipe)
       console.log("Recipe added:", response.data)
       setIsSuccess(true)
 
