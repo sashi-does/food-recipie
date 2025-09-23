@@ -3,9 +3,9 @@ import axios from 'axios';
 import { useNavigate, Link } from 'react-router-dom';
 
 const SignupForm = () => {
-  const [email, setEmail] = useState('');
-  const [name, setName] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('sashiontop@gmail.com');
+  const [name, setName] = useState('sashi');
+  const [password, setPassword] = useState('12345678');
   const [role, setRole] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState('');

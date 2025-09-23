@@ -11,7 +11,7 @@ import SignupForm from "./SignupForm"
 export default function AppRoutes() {
   return (
     <Routes>
-        <Route index element={<LandingPage />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/search" element={<SearchRecipesComponent />} />
         <Route path="/add" element={<AddRecipeComponent />} />
         <Route path="/get" element={<GetRecipeComponent />} />
