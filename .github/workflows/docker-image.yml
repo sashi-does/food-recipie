@@ -39,6 +39,7 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-frontend:latest
 
+      # NOT WORKING
       # - name: Deploy to EC2
       #   uses: appleboy/ssh-action@v1.0.0
       #   with:
