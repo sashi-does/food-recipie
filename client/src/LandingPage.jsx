@@ -22,7 +22,7 @@ import {
             <div className="flex items-center space-x-2">
               <ChefHat className="h-8 w-8 text-orange-500" />
               <h1 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600">
-                CulinaryCanvas
+                Food Recipie
               </h1>
             </div>
   
@@ -456,4 +456,5 @@ import {
       </li>
     )
   }
+
   
